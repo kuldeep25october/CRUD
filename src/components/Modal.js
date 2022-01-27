@@ -180,14 +180,7 @@ const ModalForm = ({
                   Update
                 </Button>
               ) : (
-                <Button
-                  className="addBtn"
-                  type="primary"
-                  htmlType="submit"
-                  onClick={(e) => handleAdd(e)}
-                >
-                  Add
-                </Button>
+                null
               )}
             </div>
           </form>
